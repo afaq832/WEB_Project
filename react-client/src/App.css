@@ -1,0 +1,176 @@
+body{
+  background-color: #778beb;
+}
+.bg-light{
+  background-color: #546de5 !important;
+  color: #fff;
+  border-bottom: 1px dashed #ccc;
+}
+.bg-light a{
+  color: #fff !important; 
+}
+.container{
+  max-width:100% !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 20px;
+}
+.form-label{
+color: #fff !important;
+text-transform: uppercase !important;
+font-size: 18px !important;
+}
+.note_para{
+  color: #fff;
+  font-size: 20px;
+}
+.note_para a{
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.jumbotron{
+  background-color: #778beb;
+  background-size: cover;
+ padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left:20%;
+  padding-right:20%;
+}
+.form-group{
+  width:100%;
+}
+.wrapperList{
+  padding-left:20%;
+  padding-right:20%;
+  padding-top: 50px !important;
+  
+}
+.wrapperList a{
+  color:#fff !important;
+}
+.list-group-item-action {
+  color:#fff !important;
+}
+.list-group-item{
+  background-color: #574b90 !important;
+  color:#fff;
+}
+.LoginWrapper{
+  padding-top: 50px !important;
+}
+.wrapperCourseInfo{
+  padding: 20px 50px;
+  padding-top: 50px !important;
+  background-color: #706fd3;
+  color: #2c2c54;
+}
+.wrapperCourseInfo span{
+  font-weight: bold;
+}
+.card{
+  background-color: #778beb !important;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 16px;
+}
+.card span{
+  
+  color: #2c2c54;
+}
+/***/
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 0px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+   background-image: url('https://media-exp1.licdn.com/dms/image/C4E1BAQGD7u7X87gaFw/company-background_10000/0/1519798345957?e=2159024400&v=beta&t=sDq_YBPAGMyDzuQ_C3QRCPzahkkuJTTG-KYFun9u84o');
+   height: 300px;
+   width:100%;
+   
+  -webkit-box-shadow: 0px 10px 5px #27272780;
+  -moz-box-shadow: 0px 10px 5px #27272780;
+  box-shadow: 0px 10px 5px #27272780;
+  position: relative;
+  z-index: 999999;
+}
+.mask{
+background-color: rgba(0, 0, 0, 0.6);
+height:300px;
+}
+.margin-class{
+  margin-top:80px;
+}
+
+.btn-secondary {
+	/* box-shadow: 0px 24px 14px -7px #276873; */
+	/* background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%); */
+	background-color:#574b90;
+	border-radius:12px;
+	border:1px solid #786fa6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 32px;
+  
+	text-decoration:none;
+	/* text-shadow:3px 6px 0px #3d768a; */
+}
+.btn-secondary:hover {
+	/* background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%); */
+	background-color:#786fa6;
+}
+.btn-secondary:active {
+	position:relative;
+	top:1px;
+}
+
+.app{
+  width: 1800px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
